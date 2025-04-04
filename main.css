@@ -1,0 +1,73 @@
+:root {
+  --bg: #fff;
+  --text: #111;
+  --accent: #007bff;
+}
+
+body.dark {
+  --bg: #111;
+  --text: #eee;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', sans-serif;
+  transition: all 0.3s ease;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--bg);
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+#home .hero {
+  text-align: center;
+}
+
+#about img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.project-card {
+  background: var(--accent);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
