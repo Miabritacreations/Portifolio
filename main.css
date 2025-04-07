@@ -5,7 +5,7 @@
 }
 
 body.dark {
-  --bg: #111;
+  --bg: #030746;
   --text: #eee;
 }
 
@@ -60,7 +60,7 @@ ul {
 
 button {
   background: var(--accent);
-  color: white;
+  color: rgb(42, 9, 189);
   border: none;
   padding: 10px 20px;
   cursor: pointer;
